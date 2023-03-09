@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wnh*mq*95^sp5*#7o_lg5rjtbe0tdzf%)$wg&(u(z04fvd+&=l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -41,8 +41,6 @@ INSTALLED_APPS = [
     'crispy_bootstrap4',
     'morningDjangoProject',
     'django_daraja',
-
-
 
 
 ]
